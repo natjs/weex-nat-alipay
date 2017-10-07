@@ -1,0 +1,18 @@
+{
+    "version": "0.2.3",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "description": "Nat.js module for weex: Alipay",
+    "keywords": [
+        "weex",
+        "plugin",
+        "nat",
+        "natjs",
+        "alipay",
+        "pay"
+    ],
+    "license": "MIT",
+    "name": "nat-pay-alipay"
+}

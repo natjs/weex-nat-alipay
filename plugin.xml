@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.w3.org/ns/widgets"
+    id="nat-pay-alipay"
+    version="0.2.3">
+    <name>nat-pay-alipay</name>
+    <description>Nat.js module for weex: Alipay</description>
+    <license>MIT</license>
+    <keywords>weex,plugin,nat,natjs,alipay,pay</keywords>
+    <repo>https://github.com/natjs/weex-nat-pay-alipay.git</repo>
+    <issue>https://github.com/natjs/weex-nat-pay-alipay/issues</issue>
+    
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="WeexpluginConfig.xml" parent="/*">
+            <feature name="WeexNatAlipay">
+                <param name="category" value="module" />
+                <param name="ios-package" value="WeexNatAlipay" />
+                <param name="api" value="nat/pay/alipay" />
+            </feature>
+        </config-file>
+         
+        <header-file src="ios/WeexNatAlipay.h"/>
+        <source-file src="ios/WeexNatAlipay.m"/>
+         
+        <framework src="NatAlipay" type="podspec" spec="0.0.3" />
+    </platform>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Alipay">
+                <param name="category" value="module" />
+                <param name="android-package" value="com.instapp.nat.weex.Alipay" />
+                <param name="api" value="nat/pay/alipay" />
+            </feature>
+        </config-file>
+
+        <source-file src="android/Alipay.java" target-dir="src/com/instapp/nat/pay/alipay" />
+
+        <framework src="com.instapp.nat:alipay:2.0.0" />
+    </platform>
+     
+</plugin>
