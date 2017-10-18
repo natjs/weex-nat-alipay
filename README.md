@@ -1,1 +1,1 @@
-# weex-nat-pay-alipay
+# weex-nat-alipay

@@ -1,8 +1,8 @@
 {
     "nameInfo": {
-        "fullname": "nat-pay-alipay",
-        "name": "nat-pay-alipay",
+        "fullname": "nat-alipay",
+        "name": "nat-alipay",
         "namespace": ""
     },
-    "latestVersion": "0.2.3"
+    "latestVersion": "0.2.4"
 }

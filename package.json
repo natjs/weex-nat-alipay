@@ -1,5 +1,5 @@
 {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "platform": [
         "ios",
         "android"
@@ -14,5 +14,5 @@
         "pay"
     ],
     "license": "MIT",
-    "name": "nat-pay-alipay"
+    "name": "nat-alipay"
 }

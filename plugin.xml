@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
-    id="nat-pay-alipay"
-    version="0.2.3">
-    <name>nat-pay-alipay</name>
+    id="nat-alipay"
+    version="0.2.4">
+    <name>nat-alipay</name>
     <description>Nat.js module for weex: Alipay</description>
     <license>MIT</license>
     <keywords>weex,plugin,nat,natjs,alipay,pay</keywords>
-    <repo>https://github.com/natjs/weex-nat-pay-alipay.git</repo>
-    <issue>https://github.com/natjs/weex-nat-pay-alipay/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-alipay.git</repo>
+    <issue>https://github.com/natjs/weex-nat-alipay/issues</issue>
     
     <!-- ios -->
     <platform name="ios">
