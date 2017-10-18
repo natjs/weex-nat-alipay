@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-alipay"
-    version="0.2.4">
+    version="0.2.5">
     <name>nat-alipay</name>
     <description>Nat.js module for weex: Alipay</description>
     <license>MIT</license>
@@ -16,7 +16,7 @@
             <feature name="WeexNatAlipay">
                 <param name="category" value="module" />
                 <param name="ios-package" value="WeexNatAlipay" />
-                <param name="api" value="nat/pay/alipay" />
+                <param name="api" value="nat/alipay" />
             </feature>
         </config-file>
          
@@ -32,11 +32,11 @@
             <feature name="Alipay">
                 <param name="category" value="module" />
                 <param name="android-package" value="com.instapp.nat.weex.Alipay" />
-                <param name="api" value="nat/pay/alipay" />
+                <param name="api" value="nat/alipay" />
             </feature>
         </config-file>
 
-        <source-file src="android/Alipay.java" target-dir="src/com/instapp/nat/pay/alipay" />
+        <source-file src="android/Alipay.java" target-dir="src/com/instapp/nat/alipay" />
 
         <framework src="com.instapp.nat:alipay:2.0.0" />
     </platform>
