@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-
 @protocol NatAlipayPro <WXModuleProtocol>
 
 - (void)pay:(NSDictionary *)params :(WXModuleCallback)callback;

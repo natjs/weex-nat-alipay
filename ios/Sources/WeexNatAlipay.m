@@ -6,10 +6,13 @@
 //
 
 #import "WeexNatAlipay.h"
-#import "NatAlipay.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatAlipay/NatAlipay.h>
 
 @implementation WeexNatAlipay
 @synthesize weexInstance;
+
+WX_PlUGIN_EXPORT_MODULE(nat/alipay, WeexNatAlipay)
 WX_EXPORT_METHOD(@selector(pay::))
 WX_EXPORT_METHOD(@selector(auth::))
 
@@ -19,7 +22,7 @@ WX_EXPORT_METHOD(@selector(auth::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
@@ -34,7 +37,7 @@ WX_EXPORT_METHOD(@selector(auth::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
