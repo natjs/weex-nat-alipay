@@ -12,7 +12,7 @@ import com.instapp.nat.alipay.ModuleResultListener;
 import java.util.HashMap;
 
 /**
- * Created by Created by Acathur on 17/10/1.
+ * Created by Acathur on 17/10/1.
  *  Copyright (c) 2017 Instapp. All rights reserved.
  */
 
